@@ -4,7 +4,8 @@ import React from 'react';
 // import PortalsDemo from'./components/PortalsDemo';
 // import ContextDemo from './components/ContextDemo';
 // import LazyDemo from './components/LazyDemo';
-import SCUDemo from './components/SCUDemo';
+// import SCUDemo from './components/SCUDemo';
+import SCUDemoTwo from './components/SCUDemoTwo';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <PortalsDemo> Modal内容 </PortalsDemo> */}
       {/* <ContextDemo/> */}
       {/* <LazyDemo/> */}
-      <SCUDemo/>
+      {/* <SCUDemo/> */}
+      <SCUDemoTwo/>
     </div>
   );
 }
