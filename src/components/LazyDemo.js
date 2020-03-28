@@ -3,9 +3,7 @@ import React,{Component} from 'react';
 const ContextDemo = React.lazy(()=>import('./ContextDemo'));
 
 class LazyDemo extends Component {
-  constructor(props) {
-    super(props);
-  }
+
   render() {
     return(
 

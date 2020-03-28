@@ -3,7 +3,8 @@ import React from 'react';
 // import UncontrolledDemo from'./components/UncontrolledDemo';
 // import PortalsDemo from'./components/PortalsDemo';
 // import ContextDemo from './components/ContextDemo';
-import LazyDemo from './components/LazyDemo';
+// import LazyDemo from './components/LazyDemo';
+import SCUDemo from './components/SCUDemo';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <UncontrolledDemo/> */}
       {/* <PortalsDemo> Modal内容 </PortalsDemo> */}
       {/* <ContextDemo/> */}
-      <LazyDemo/>
+      {/* <LazyDemo/> */}
+      <SCUDemo/>
     </div>
   );
 }
