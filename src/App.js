@@ -1,7 +1,7 @@
 import React from 'react';
 // import StateDemo from'./components/StateDemo';
 // import UncontrolledDemo from'./components/UncontrolledDemo';
-import PortalsDemo from'./components';
+import PortalsDemo from'./components/PortalsDemo';
 
 function App() {
   return (

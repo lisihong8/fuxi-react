@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import './style.css';
 
 
@@ -18,6 +17,7 @@ class PortalsDemo extends React.Component {
           {this.props.children} {/*这个类似于 vue 的 slot */}
       </div>
     )
+
   }
 }
 export default PortalsDemo;
