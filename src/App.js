@@ -2,7 +2,8 @@ import React from 'react';
 // import StateDemo from'./components/StateDemo';
 // import UncontrolledDemo from'./components/UncontrolledDemo';
 // import PortalsDemo from'./components/PortalsDemo';
-import ContextDemo from './components/ContextDemo';
+// import ContextDemo from './components/ContextDemo';
+import LazyDemo from './components/LazyDemo';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <StateDemo/> */}
       {/* <UncontrolledDemo/> */}
       {/* <PortalsDemo> Modal内容 </PortalsDemo> */}
-      <ContextDemo/>
+      {/* <ContextDemo/> */}
+      <LazyDemo/>
     </div>
   );
 }
