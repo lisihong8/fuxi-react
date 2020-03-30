@@ -5,7 +5,8 @@ import React from 'react';
 // import ContextDemo from './components/ContextDemo';
 // import LazyDemo from './components/LazyDemo';
 // import SCUDemo from './components/SCUDemo';
-import SCUDemoTwo from './components/SCUDemoTwo';
+// import SCUDemoTwo from './components/SCUDemoTwo';
+import HOCDemo from './components/HOCDemo';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <ContextDemo/> */}
       {/* <LazyDemo/> */}
       {/* <SCUDemo/> */}
-      <SCUDemoTwo/>
+      {/* <SCUDemoTwo/> */}
+      <HOCDemo a={'abc'}/>
     </div>
   );
 }
