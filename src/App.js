@@ -9,7 +9,8 @@ import React from 'react';
 // import HOCDemo from './components/HOCDemo';
 // import ReactPropsDemo from './components/ReaderPropsDemo';
 // import ReduxUse from './components/reduxUse';
-import SetStateTiMu from './components/setStateTiMu';
+// import SetStateTiMu from './components/setStateTiMu';
+import EventDemo from './components/EventDemo';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <HOCDemo a={'abc'}/> */}
       {/* <ReactPropsDemo b='abcdefg'/> */}
       {/* <ReduxUse/> */}
-      <SetStateTiMu />
+      {/* <SetStateTiMu /> */}
+      <EventDemo />
     </div>
   );
 }
