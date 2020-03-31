@@ -8,7 +8,8 @@ import React from 'react';
 // import SCUDemoTwo from './components/SCUDemoTwo';
 // import HOCDemo from './components/HOCDemo';
 // import ReactPropsDemo from './components/ReaderPropsDemo';
-import ReduxUse from './components/reduxUse';
+// import ReduxUse from './components/reduxUse';
+import SetStateTiMu from './components/setStateTiMu';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <SCUDemoTwo/> */}
       {/* <HOCDemo a={'abc'}/> */}
       {/* <ReactPropsDemo b='abcdefg'/> */}
-      <ReduxUse/>
+      {/* <ReduxUse/> */}
+      <SetStateTiMu />
     </div>
   );
 }
